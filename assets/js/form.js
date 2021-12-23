@@ -14,6 +14,7 @@ email.addEventListener("click",(e)=>{
 password.addEventListener("input",(e)=>{
     e.preventDefault();
     errorPassword.style.display="none";
+    voidPassword.style.display="none";
 });
 
 
