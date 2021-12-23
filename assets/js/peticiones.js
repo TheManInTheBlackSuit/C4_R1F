@@ -22,7 +22,7 @@ function iniciarSesion(data){
   let email=data["email"];
   let password=data["password"];
   $.ajax({
-    url:"http://http://150.136.4.8:8080/api/user/"+email+"/"+password,
+    url:"http://150.136.4.8:8080/api/user/"+email+"/"+password,
     type:"GET",
     datatype:"JSON",
     success:function(respuesta){
@@ -41,7 +41,7 @@ function iniciarSesion(data){
 function guardarUsuario(data){
   let email=data["email"];
   $.ajax({
-    url:"http://http://150.136.4.8:8080/api/user/"+email,
+    url:"http://150.136.4.8:8080/api/user/"+email,
     type:"GET",
     datatype:"JSON",
     success:function(respuesta){
@@ -51,7 +51,7 @@ function guardarUsuario(data){
           else{
             let dataToSend=JSON.stringify(data);
             $.ajax({
-              url:"http://http://150.136.4.8:8080/api/user/new",
+              url:"http://150.136.4.8:8080/api/user/new",
               type:"POST",
               data:dataToSend,
               contentType:"application/JSON",
