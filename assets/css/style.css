@@ -1,0 +1,23 @@
+body{
+    margin:2% 5% 2% 5%;
+}
+#container1{
+    color:white;
+    background: lightseagreen;
+    padding:5px;
+    text-align: center;
+}
+#container2{
+    text-align: center;
+    margin:2%;
+
+}
+#container3{
+    text-align: center;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.parrafo{
+    font-size:1.5em;
+    
+}
